@@ -19,6 +19,8 @@ function MusicSchoolContactUs() {
     return (
         <div className="min-h-screen bg-gray-100 dark:bg-gray-900 py-12 pt-36 relative">
             {/* Ensure the container is relative */}
+            {/* BackgroundBeams with adjusted z-index */}
+            <Meteors number={50} />
             {/* Content with higher z-index */}
             <div className="max-w-2xl mx-auto p-4 relative z-10">
                 {/* Add relative and z-10 to bring content to the front */}
